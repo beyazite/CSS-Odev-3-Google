@@ -1,0 +1,255 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* top bar */
+.top-bar {
+    width: 100%;
+    height: 60px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.gmail-a{
+   display: inline-block;
+   width: 33.95px;
+   height: 24px;
+   font-size: 13px;
+   color: rgba(0,0,0,.87);
+   text-decoration: none;
+   font-family: arial,sans-serif;
+   margin-top: 9px;
+   margin-right: 15px;
+}
+
+.gmail-a:hover {
+    text-decoration: underline;
+}
+
+.img-a{
+    display: inline-block;
+    width: 42.65px;
+    height: 24px;
+    font-size: 13px;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    margin-top: 9px;
+    margin-right: 19px;
+}
+
+.img-a:hover {
+    text-decoration: underline;
+}
+
+
+.dots-div {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+.dots-div>img{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+ .dots-div:hover{
+    cursor: pointer;
+    border: 0px gray solid;
+    background-color: rgb(225, 225, 225);
+    border-radius: 50%;
+} 
+
+.sign-a {
+   display: inline-block;
+   padding: 9px 24.8px;
+   color: rgba(0,0,0,.87);
+   text-decoration: none;
+   font-family: arial,sans-serif;
+   background: #1a73e8;
+   border: 1px solid transparent;
+   font-size: 14px;
+   letter-spacing: 0.25px;
+   margin-right: 18px;
+   text-align: center;
+   border-radius: 4px;
+   color: white;
+}
+
+.sign-a:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,.3),0 1px 3px 1px rgba(66,133,244,.15);
+}
+
+
+
+/* google logo */
+.logo-div {
+    display: flex; 
+    width: 100%;
+    height: 100%;
+}
+
+.g-logo {
+    max-width: 25%;
+    margin: 0 auto;
+    margin-top: 3.85%;
+}
+
+/* search bar and icons on it */
+.search-bar {
+    margin: 1.65em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2.75em;
+    width: 582.44px;
+    border: 0.005em rgb(190, 190, 190, 0.5) solid;
+    border-radius: 100px;
+}
+
+.search-bar:hover {
+    box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.1);
+}
+
+.search-bar>.m-glass-img {
+    width: 14px;
+    height: 14px;
+    opacity: 0.4;
+    line-height: 20px;
+    align-self: center;
+    margin: 0 auto 3px 16px;
+}
+
+
+[type="search"] {
+    width: 480px;
+    border: none;
+}
+
+.voice-div {
+    max-width: 100%;
+    max-height: 100%;
+    border: 0em rgb(190, 190, 190, 0.5) solid;
+    border-radius: 100px;  
+    background-color: transparent;
+}
+.voice-div>button {
+    border: 0px rgb(190, 190, 190, 0.5) solid;
+    border-radius: 100px;
+    background-color: transparent;
+}
+.voice-img {
+    width: 23px;
+    height: 23px;
+    line-height: 20px;    
+    margin: 8px;
+}
+
+
+/* buttons under search bar */
+.buttons-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.buttons-1 {
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    height: 35px;
+    width: 126.96px;
+    margin-top: 3px;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.buttons-1:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.buttons-2 {
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    width: 142.06px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.buttons-2:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+/* footer and sub elements */
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 46.8px;
+}
+
+.footer {
+    padding: 0 20px;
+
+}
+.left-ft { 
+    float: left;
+}
+
+.left-ft a {
+    display: inline-block;
+    color: #70757a;
+    padding: 15px;
+    margin-right: -4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.left-ft a:hover {
+    text-decoration: underline;
+}
+
+.right-ft {
+    float: right;
+}
+
+.right-ft a {
+    display: inline-block;
+    color: #70757a;
+    padding: 15px;
+    margin-left: -4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.right-ft a:hover {
+    text-decoration: underline;
+}
